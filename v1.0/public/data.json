@@ -1,0 +1,945 @@
+{
+    "board": [
+        [
+            ".",
+            "n",
+            ".",
+            "R",
+            "k",
+            "b",
+            ".",
+            "r"
+        ],
+        [
+            "p",
+            ".",
+            ".",
+            ".",
+            ".",
+            "p",
+            "p",
+            "p"
+        ],
+        [
+            ".",
+            ".",
+            ".",
+            ".",
+            "q",
+            ".",
+            ".",
+            "."
+        ],
+        [
+            ".",
+            ".",
+            ".",
+            ".",
+            "p",
+            ".",
+            "B",
+            "."
+        ],
+        [
+            ".",
+            ".",
+            ".",
+            ".",
+            "P",
+            ".",
+            ".",
+            "."
+        ],
+        [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "."
+        ],
+        [
+            "P",
+            "P",
+            "P",
+            ".",
+            ".",
+            "P",
+            "P",
+            "P"
+        ],
+        [
+            ".",
+            ".",
+            "K",
+            ".",
+            ".",
+            ".",
+            ".",
+            "."
+        ]
+    ],
+    "evaluation": [
+        {
+            "move": "e4",
+            "move_number": 1,
+            "color": "white",
+            "stockfish_eval_cpn": 38,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "e2e4",
+                    "Centipawn": 29,
+                    "Mate": null
+                },
+                {
+                    "Move": "d2d4",
+                    "Centipawn": 26,
+                    "Mate": null
+                },
+                {
+                    "Move": "g1f3",
+                    "Centipawn": 24,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 9
+        },
+        {
+            "move": "e5",
+            "move_number": 2,
+            "color": "black",
+            "stockfish_eval_cpn": 44,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "c7c5",
+                    "Centipawn": 32,
+                    "Mate": null
+                },
+                {
+                    "Move": "e7e6",
+                    "Centipawn": 37,
+                    "Mate": null
+                },
+                {
+                    "Move": "e7e5",
+                    "Centipawn": 39,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 12
+        },
+        {
+            "move": "Nf3",
+            "move_number": 3,
+            "color": "white",
+            "stockfish_eval_cpn": 43,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "g1f3",
+                    "Centipawn": 51,
+                    "Mate": null
+                },
+                {
+                    "Move": "b1c3",
+                    "Centipawn": 17,
+                    "Mate": null
+                },
+                {
+                    "Move": "f1c4",
+                    "Centipawn": 10,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 8
+        },
+        {
+            "move": "d6",
+            "move_number": 4,
+            "color": "black",
+            "stockfish_eval_cpn": 43,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "b8c6",
+                    "Centipawn": 31,
+                    "Mate": null
+                },
+                {
+                    "Move": "g8f6",
+                    "Centipawn": 48,
+                    "Mate": null
+                },
+                {
+                    "Move": "d7d6",
+                    "Centipawn": 53,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 12
+        },
+        {
+            "move": "d4",
+            "move_number": 5,
+            "color": "white",
+            "stockfish_eval_cpn": 55,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "d2d4",
+                    "Centipawn": 74,
+                    "Mate": null
+                },
+                {
+                    "Move": "b1c3",
+                    "Centipawn": 35,
+                    "Mate": null
+                },
+                {
+                    "Move": "f1c4",
+                    "Centipawn": 29,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 19
+        },
+        {
+            "move": "Bg4",
+            "move_number": 6,
+            "color": "black",
+            "stockfish_eval_cpn": 103,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "b8d7",
+                    "Centipawn": 57,
+                    "Mate": null
+                },
+                {
+                    "Move": "e5d4",
+                    "Centipawn": 62,
+                    "Mate": null
+                },
+                {
+                    "Move": "b8c6",
+                    "Centipawn": 71,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 46
+        },
+        {
+            "move": "dxe5",
+            "move_number": 7,
+            "color": "white",
+            "stockfish_eval_cpn": 109,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "b1c3",
+                    "Centipawn": 113,
+                    "Mate": null
+                },
+                {
+                    "Move": "d4e5",
+                    "Centipawn": 112,
+                    "Mate": null
+                },
+                {
+                    "Move": "c1e3",
+                    "Centipawn": 97,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 4
+        },
+        {
+            "move": "Bxf3",
+            "move_number": 8,
+            "color": "black",
+            "stockfish_eval_cpn": 188,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "b8d7",
+                    "Centipawn": 107,
+                    "Mate": null
+                },
+                {
+                    "Move": "b8c6",
+                    "Centipawn": 108,
+                    "Mate": null
+                },
+                {
+                    "Move": "a7a6",
+                    "Centipawn": 148,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 81
+        },
+        {
+            "move": "Qxf3",
+            "move_number": 9,
+            "color": "white",
+            "stockfish_eval_cpn": 160,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "d1f3",
+                    "Centipawn": 140,
+                    "Mate": null
+                },
+                {
+                    "Move": "g2f3",
+                    "Centipawn": 109,
+                    "Mate": null
+                },
+                {
+                    "Move": "d1d5",
+                    "Centipawn": -196,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 20
+        },
+        {
+            "move": "dxe5",
+            "move_number": 10,
+            "color": "black",
+            "stockfish_eval_cpn": 138,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "d6e5",
+                    "Centipawn": 145,
+                    "Mate": null
+                },
+                {
+                    "Move": "b8d7",
+                    "Centipawn": 197,
+                    "Mate": null
+                },
+                {
+                    "Move": "b8c6",
+                    "Centipawn": 212,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 7
+        },
+        {
+            "move": "Bc4",
+            "move_number": 11,
+            "color": "white",
+            "stockfish_eval_cpn": 158,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "f1c4",
+                    "Centipawn": 140,
+                    "Mate": null
+                },
+                {
+                    "Move": "f3b3",
+                    "Centipawn": 139,
+                    "Mate": null
+                },
+                {
+                    "Move": "b1c3",
+                    "Centipawn": 124,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 18
+        },
+        {
+            "move": "Nf6",
+            "move_number": 12,
+            "color": "black",
+            "stockfish_eval_cpn": 215,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "d8e7",
+                    "Centipawn": 148,
+                    "Mate": null
+                },
+                {
+                    "Move": "d8d7",
+                    "Centipawn": 151,
+                    "Mate": null
+                },
+                {
+                    "Move": "d8f6",
+                    "Centipawn": 152,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 67
+        },
+        {
+            "move": "Qb3",
+            "move_number": 13,
+            "color": "white",
+            "stockfish_eval_cpn": 240,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "f3b3",
+                    "Centipawn": 237,
+                    "Mate": null
+                },
+                {
+                    "Move": "c1e3",
+                    "Centipawn": 109,
+                    "Mate": null
+                },
+                {
+                    "Move": "c1g5",
+                    "Centipawn": 104,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 3
+        },
+        {
+            "move": "Qe7",
+            "move_number": 14,
+            "color": "black",
+            "stockfish_eval_cpn": 240,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "f8c5",
+                    "Centipawn": 242,
+                    "Mate": null
+                },
+                {
+                    "Move": "d8e7",
+                    "Centipawn": 260,
+                    "Mate": null
+                },
+                {
+                    "Move": "d8d7",
+                    "Centipawn": 265,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 2
+        },
+        {
+            "move": "Nc3",
+            "move_number": 15,
+            "color": "white",
+            "stockfish_eval_cpn": 237,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "b3b7",
+                    "Centipawn": 253,
+                    "Mate": null
+                },
+                {
+                    "Move": "b1c3",
+                    "Centipawn": 219,
+                    "Mate": null
+                },
+                {
+                    "Move": "e1g1",
+                    "Centipawn": 180,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 16
+        },
+        {
+            "move": "c6",
+            "move_number": 16,
+            "color": "black",
+            "stockfish_eval_cpn": 208,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "c7c6",
+                    "Centipawn": 238,
+                    "Mate": null
+                },
+                {
+                    "Move": "e7b4",
+                    "Centipawn": 257,
+                    "Mate": null
+                },
+                {
+                    "Move": "b7b5",
+                    "Centipawn": 288,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 30
+        },
+        {
+            "move": "Bg5",
+            "move_number": 17,
+            "color": "white",
+            "stockfish_eval_cpn": 205,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "c1g5",
+                    "Centipawn": 238,
+                    "Mate": null
+                },
+                {
+                    "Move": "c1e3",
+                    "Centipawn": 214,
+                    "Mate": null
+                },
+                {
+                    "Move": "a2a4",
+                    "Centipawn": 155,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 33
+        },
+        {
+            "move": "b5",
+            "move_number": 18,
+            "color": "black",
+            "stockfish_eval_cpn": 336,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "e8d8",
+                    "Centipawn": 230,
+                    "Mate": null
+                },
+                {
+                    "Move": "e7d7",
+                    "Centipawn": 247,
+                    "Mate": null
+                },
+                {
+                    "Move": "a7a6",
+                    "Centipawn": 260,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 106
+        },
+        {
+            "move": "Nxb5",
+            "move_number": 19,
+            "color": "white",
+            "stockfish_eval_cpn": 332,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "c3b5",
+                    "Centipawn": 355,
+                    "Mate": null
+                },
+                {
+                    "Move": "g5f6",
+                    "Centipawn": 133,
+                    "Mate": null
+                },
+                {
+                    "Move": "c4b5",
+                    "Centipawn": 89,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 23
+        },
+        {
+            "move": "cxb5",
+            "move_number": 20,
+            "color": "black",
+            "stockfish_eval_cpn": 476,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "e7b4",
+                    "Centipawn": 312,
+                    "Mate": null
+                },
+                {
+                    "Move": "b8a6",
+                    "Centipawn": 332,
+                    "Mate": null
+                },
+                {
+                    "Move": "c6b5",
+                    "Centipawn": 451,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 164
+        },
+        {
+            "move": "Bxb5+",
+            "move_number": 21,
+            "color": "white",
+            "stockfish_eval_cpn": 512,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "c4b5",
+                    "Centipawn": 445,
+                    "Mate": null
+                },
+                {
+                    "Move": "b3b5",
+                    "Centipawn": 205,
+                    "Mate": null
+                },
+                {
+                    "Move": "c4e2",
+                    "Centipawn": -180,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 67
+        },
+        {
+            "move": "Nbd7",
+            "move_number": 22,
+            "color": "black",
+            "stockfish_eval_cpn": 485,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "b8d7",
+                    "Centipawn": 483,
+                    "Mate": null
+                },
+                {
+                    "Move": "e8d8",
+                    "Centipawn": 540,
+                    "Mate": null
+                },
+                {
+                    "Move": "e7d7",
+                    "Centipawn": 573,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 2
+        },
+        {
+            "move": "O-O-O",
+            "move_number": 23,
+            "color": "white",
+            "stockfish_eval_cpn": 457,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "e1c1",
+                    "Centipawn": 511,
+                    "Mate": null
+                },
+                {
+                    "Move": "g5f6",
+                    "Centipawn": 299,
+                    "Mate": null
+                },
+                {
+                    "Move": "e1g1",
+                    "Centipawn": 139,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 54
+        },
+        {
+            "move": "Rd8",
+            "move_number": 24,
+            "color": "black",
+            "stockfish_eval_cpn": 473,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "a8d8",
+                    "Centipawn": 445,
+                    "Mate": null
+                },
+                {
+                    "Move": "e7c5",
+                    "Centipawn": 489,
+                    "Mate": null
+                },
+                {
+                    "Move": "a8b8",
+                    "Centipawn": 494,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 28
+        },
+        {
+            "move": "Rxd7",
+            "move_number": 25,
+            "color": "white",
+            "stockfish_eval_cpn": 534,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "d1d7",
+                    "Centipawn": 555,
+                    "Mate": null
+                },
+                {
+                    "Move": "d1d5",
+                    "Centipawn": 416,
+                    "Mate": null
+                },
+                {
+                    "Move": "d1d3",
+                    "Centipawn": 370,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 21
+        },
+        {
+            "move": "Rxd7",
+            "move_number": 26,
+            "color": "black",
+            "stockfish_eval_cpn": 592,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "f6d7",
+                    "Centipawn": 507,
+                    "Mate": null
+                },
+                {
+                    "Move": "d8d7",
+                    "Centipawn": 544,
+                    "Mate": null
+                },
+                {
+                    "Move": "e7d7",
+                    "Centipawn": 618,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 85
+        },
+        {
+            "move": "Rd1",
+            "move_number": 27,
+            "color": "white",
+            "stockfish_eval_cpn": 571,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "h1d1",
+                    "Centipawn": 556,
+                    "Mate": null
+                },
+                {
+                    "Move": "b3c3",
+                    "Centipawn": 257,
+                    "Mate": null
+                },
+                {
+                    "Move": "g5f6",
+                    "Centipawn": 179,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 15
+        },
+        {
+            "move": "Qe6",
+            "move_number": 28,
+            "color": "black",
+            "stockfish_eval_cpn": 617,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "e7c5",
+                    "Centipawn": 530,
+                    "Mate": null
+                },
+                {
+                    "Move": "e7e6",
+                    "Centipawn": 593,
+                    "Mate": null
+                },
+                {
+                    "Move": "e7b4",
+                    "Centipawn": 618,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 87
+        },
+        {
+            "move": "Bxd7+",
+            "move_number": 29,
+            "color": "white",
+            "stockfish_eval_cpn": 332,
+            "mate_in": null,
+            "next_best_3_moves": [
+                {
+                    "Move": "g5f6",
+                    "Centipawn": 575,
+                    "Mate": null
+                },
+                {
+                    "Move": "b3e6",
+                    "Centipawn": 447,
+                    "Mate": null
+                },
+                {
+                    "Move": "b3c3",
+                    "Centipawn": 444,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": false,
+            "abs_diff_cpn": 243
+        },
+        {
+            "move": "Nxd7",
+            "move_number": 30,
+            "color": "black",
+            "stockfish_eval_cpn": 10000,
+            "mate_in": 2,
+            "next_best_3_moves": [
+                {
+                    "Move": "f6d7",
+                    "Centipawn": 317,
+                    "Mate": null
+                },
+                {
+                    "Move": "e6d7",
+                    "Centipawn": 679,
+                    "Mate": null
+                },
+                {
+                    "Move": "e8e7",
+                    "Centipawn": 1206,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 9683
+        },
+        {
+            "move": "Qb8+",
+            "move_number": 31,
+            "color": "white",
+            "stockfish_eval_cpn": 10000,
+            "mate_in": 1,
+            "next_best_3_moves": [
+                {
+                    "Move": "b3b8",
+                    "Centipawn": null,
+                    "Mate": 2
+                },
+                {
+                    "Move": "b3b7",
+                    "Centipawn": 261,
+                    "Mate": null
+                },
+                {
+                    "Move": "b3b5",
+                    "Centipawn": 121,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 0
+        },
+        {
+            "move": "Nxb8",
+            "move_number": 32,
+            "color": "black",
+            "stockfish_eval_cpn": 10000,
+            "mate_in": 1,
+            "next_best_3_moves": [
+                {
+                    "Move": "d7b8",
+                    "Centipawn": null,
+                    "Mate": 1
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 0
+        },
+        {
+            "move": "Rd8#",
+            "move_number": 33,
+            "color": "white",
+            "stockfish_eval_cpn": -10000,
+            "mate_in": 0,
+            "next_best_3_moves": [
+                {
+                    "Move": "d1d8",
+                    "Centipawn": null,
+                    "Mate": 1
+                },
+                {
+                    "Move": "f2f4",
+                    "Centipawn": -595,
+                    "Mate": null
+                },
+                {
+                    "Move": "a2a3",
+                    "Centipawn": -620,
+                    "Mate": null
+                }
+            ],
+            "is_best_move": true,
+            "abs_diff_cpn": 20000
+        }
+    ],
+    "metadata": {
+        "Event": "Opera Game",
+        "Site": "Paris FRA",
+        "Date": "1858.05.26",
+        "Round": "1",
+        "White": "Paul Morphy",
+        "Black": "Duke Karl / Count Isouard",
+        "Result": "1-0"
+    },
+    "current_board": [],
+    "file_path": "public/data.json"
+}
