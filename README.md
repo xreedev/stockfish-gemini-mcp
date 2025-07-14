@@ -102,13 +102,3 @@ This will:
 * [ ] Async pipeline for faster evals
 * [ ] Frontend or CLI polish
 
----
-
-## License
-
-Add one if you care.
-Otherwise, it’s “use at your own risk.”
-
----
-
-**That’s it.**
